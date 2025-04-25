@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>แนะนำสถานที่ท่องเที่ยว</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Background Style -->
+  <style>
+    body {
+      background: url('https://i.pinimg.com/736x/25/78/02/257802a086103b318da8ce616e2584e5.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff; 
+      /* กำหนดตัวอักษร ในตัวแปร Body ให้เป็นสีขาว */
+    }
+
+    .bg-overlay {
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #000;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .navbar,
+    footer {
+      background-color: rgba(7, 7, 7, 0.9) !important;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.95);
+    }
+
+    .card-title {
+      color: #000000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Tuy with Friend</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contect</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="text-center py-5 bg-overlay container mt-4">
+    <h1 class="fw-bold">สถานที่ท่องเที่ยวน่าไปในประเทศไทย</h1>
+    <p class="lead">รวมสถานที่ยอดนิยม ที่คุณไม่ควรพลาด</p>
+  </header>
+
+  <!-- Places Section -->
+  <div class="container my-5 bg-overlay">
+    <div class="row g-4">
+      <!-- สถานที่ 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://www.agoda.com/wp-content/uploads/2022/12/Phu-Langka-Forest-Park-Phayao-Things-to-do-in-Upper-North-Thailand.jpg" class="card-img-top" alt="ภาคเหนือ">
+          <div class="card-body">
+            <h5 class="card-title">ภาคเหนือ</h5>
+            <p class="card-text">สถานที่ท่องเที่ยวสุดฮิตของภาคเหนือ มีทั้งวัด ธรรมชาติ และวัฒนธรรมล้านนา</p>
+            <a href="Test.html" class="btn btn-success">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+      <!-- สถานที่ 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://img.wongnai.com/p/624x0/2018/09/01/0431600d22f543d885d7192431e87ac7.jpg" class="card-img-top" alt="ภาคใต้">
+          <div class="card-body">
+            <h5 class="card-title">ภาคใต้</h5>
+            <p class="card-text">สถานที่ท่องเที่ยวสุดฮิตของภาคใต้ ชายหาดน้ำใส อาหารทะเล และบรรยากาศชิลล์ ๆ</p>
+            <a href="#" class="btn btn-success">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+      <!-- สถานที่ 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="https://www.charnveeresortkhaoyai.com/wp-content/uploads/2022/12/Sep6-1.jpg" class="card-img-top" alt="ภาคอีสาน">
+          <div class="card-body">
+            <h5 class="card-title">ภาคอีสาน</h5>
+            <p class="card-text">สถานที่ท่องเที่ยวสุดฮิตของภาคอีสาน แหล่งธรรมชาติ ที่เหมาะกับคนรักป่าเขา น้ำตก และการผจญภัย</p>
+            <a href="#" class="btn btn-success">ดูรายละเอียด</a>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
